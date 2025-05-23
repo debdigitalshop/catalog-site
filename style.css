@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #075e54;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #009688;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: #00796b;
+  }
+
+  .fb-btn {
+    position: fixed;
+    bottom: 70px; /* হোম বাটনের উপরে থাকবে */
+    right: 20px;
+    background-color: #1877f2;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
+  }
+  
+  .fb-btn:hover {
+    background-color: #0e63d6;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #fff3e0;
+    color: #e65100;
+  }
+
+  .show-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .show-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .product {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .whatsapp-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1ebe5d;
+  }
